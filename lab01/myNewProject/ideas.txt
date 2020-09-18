@@ -1,0 +1,4 @@
+Exercise 1.1
+a. A relevant application to our current pandemic would be a contact tracing app with visualization of your sphere of infectious influence on people around you. The app would show on a chart the people who have been around you and the people around them in a tiered map. This way, the effects of infectious diseases can be more tangible and easily understood by people, encouraging them to take covid safety measures more seriously. Another way of encouraging people to use contact tracing would be to use fake internet points, like Reddit, Google Maps review system, and Four Square app. 
+b. One wacky application might be a live map of working printers on Calvin Campus, and a status of how much ink and paper in each printer. 
+

@@ -1,0 +1,21 @@
+Exercise 1.2
+
+1. a. Junior
+   b. BCS
+   c. A, A
+
+2. a. I have worked with java and mysql databases, mostly making bad Minecraft plugins for a server I was running.
+   b. I have used Git and GitHub for small personal projects of mine and simple config files for Emacs. I have not used Slack and Trello at all.
+   c. I have a OnePlus 7 Pro that runs Android 10.
+   d. I would like to work on a project that involves tracking and some community involvement / benefit. One such idea is a Covid contact tracing app that rewards users for participation. This is inspired in part by what I see Google Maps doing with its review system. Whenever I write a review, I gain fake internet points, and that artificial motivation is enough to encourage me to go out of my way to contribute to Google Maps, making it easier for other people to know what exactly a restaurant or a store is like and etc.
+
+3. a. 
+	1. Openness 80
+        2. Conscientiousness 100
+        3. Extraversion 70
+        4. Agreeableness 60
+        5. Neuroticism 90
+   b. I would not like to work with Hyechan, Andrew Baker, and Josh Ridder. 
+
+4. No 
+ 
