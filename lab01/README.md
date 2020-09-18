@@ -1,6 +1,6 @@
 # CS 262 - Lab 1
 
-This lab is based on [cs 262 lab03](https://cs.calvin.edu/courses/cs/262/kvlinden/01introduction/lab.html)
+This lab is based on [cs 262 lab 1](https://cs.calvin.edu/courses/cs/262/kvlinden/01introduction/lab.html)
 
 Answers to the lab questions:
 * This application serves as a tutorial for learning how to setup a simple React Native application using Expo.
