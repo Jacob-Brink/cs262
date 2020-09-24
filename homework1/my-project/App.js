@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { StyleSheet, View, FlatList, Alert, TouchableWithoutFeedback, Keyboard } from 'react-native';
+import { StyleSheet, View, FlatList, TouchableWithoutFeedback, Keyboard } from 'react-native';
 import Header from './components/header';
 import TodoItem from './components/todoItem';
 import AddTodo from './components/addTodo';
@@ -24,7 +24,7 @@ export default function App() {
   return (
     <TouchableWithoutFeedback>
       <View>
-        <Header />
+        <Header/>
         <View>
           <AddTodo submitHandler={(text) => addTodo(text)}/>
           <View>
@@ -44,6 +44,22 @@ export default function App() {
 const styles = StyleSheet.create({
     container: {
 	flex: 1,
-	background: '#fff',
+	backgroundColor: '#fff',
+	alignItems: 'center',
+	justifyContent: 'center',
     },
+    buttonContainer: {
+	marginTop: 20
+    },
+    input: {
+	borderWidth: 1,
+	borderColor: '#777',
+	padding: 8,
+	margin: 10,
+	width: 200,
+    },
+    item: {
+        marginTop: 24,
+        fontSize: 24
+    }
 });
