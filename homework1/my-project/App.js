@@ -40,26 +40,3 @@ export default function App() {
     </TouchableWithoutFeedback>
   );
 }
-
-const styles = StyleSheet.create({
-    container: {
-	flex: 1,
-	backgroundColor: '#fff',
-	alignItems: 'center',
-	justifyContent: 'center',
-    },
-    buttonContainer: {
-	marginTop: 20
-    },
-    input: {
-	borderWidth: 1,
-	borderColor: '#777',
-	padding: 8,
-	margin: 10,
-	width: 200,
-    },
-    item: {
-        marginTop: 24,
-        fontSize: 24
-    }
-});

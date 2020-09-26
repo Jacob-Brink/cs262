@@ -25,7 +25,9 @@ export default function AddTodo({ submitHandler }) {
             value={text}
 	    onChangeText={val => setText(val)} 
           />
-	  <Button title='add todo' onPress={handlePress} color='coral'/>
+	    <View style={styles.button}>
+		<Button title='add todo' onPress={handlePress} color='coral'/>
+	    </View>
         </View>
     );
 }
@@ -37,5 +39,9 @@ const styles = StyleSheet.create({
         paddingVertical: 6,
         borderBottomWidth: 1,
         borderBottomColor: '#ddd',
-    }
+    },
+    button: {
+	marginLeft: 20,
+	marginRight: 20,
+    },
 });
