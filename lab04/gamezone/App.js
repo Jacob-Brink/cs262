@@ -3,7 +3,7 @@ import { AppLoading } from 'expo';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 
-import Navigator from './routes/homeStack'
+import Navigator from './routes/homeStack';
 
 import * as Font from 'expo-font';
 
@@ -15,9 +15,20 @@ const getFonts = () => {
 };
 
 export default function App() {
-  return (
-      <NavigationContainer>
-          <Navigator />
-      </NavigationContainer>
-  );
+    const [fontsLoaded, setFontsLoaded] = useState(false);
+
+    if (fontsLoaded) {
+        return (
+            <NavigationContainer>
+              <Navigator />
+            </NavigationContainer>
+        );
+    } else {
+        return (
+            <AppLoading
+              startAsync={getFonts}
+              onFinish={() => setFontsLoaded(true)}
+            />
+        );
+    };
 };
