@@ -5,7 +5,7 @@ import { globalStyles } from '../styles/global';
 export default function Home({ navigation }) {
     const [reviews, setReviews] = useState([
 	{title: "Rocket League", body: "A fun soccer game with a twist.", rating: 5.0, key: '0'},
-	{title: "Among Us", body: "Hype. That's all it is.", rating: 4.0, key: '1' },
+	{title: "Among Us", body: "Hype. That's all it is. More text and more text and more text and more text and more text and more text and more text and more text and more text and more text and more text and more text and more text", rating: 4.0, key: '1' },
 	{title: "Minecraft", body: "lego on the pc", rating: 2.0, key: '2'},
     ]);
 
