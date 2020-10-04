@@ -4,6 +4,8 @@ import {createStackNavigator} from '@react-navigation/stack';
 import Header from '../shared/header';
 import About from '../screens/about';
 
+import { globalStyles }  from '../styles/global';
+
 const Stack = createStackNavigator();
 
 export default function AboutStack( {navigation} ) {
@@ -13,7 +15,8 @@ export default function AboutStack( {navigation} ) {
                 name="About"
                 component={About}
                 options={{
-                    headerLeft: () =>  <Header navigation={navigation} />
+                    headerLeft: () =>  <Header navigation={navigation} />,   
+                    headerTitleStyle: globalStyles.titleText,             
                 }}
             />
         </Stack.Navigator>
