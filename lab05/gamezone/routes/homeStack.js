@@ -21,9 +21,7 @@ export default function HomeStack( {navigation} ) {
             <Stack.Screen
                 name="ReviewDetails"
                 component={ReviewDetails}
-                options={{
-                    title: 'Review Details',
-                }}
+                options={{title: 'Review Details'}}
             />
         </Stack.Navigator>
     );
