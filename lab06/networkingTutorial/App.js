@@ -8,9 +8,9 @@ export default App = () => {
   const loadData = async () => {
     const fetchResponse = await fetch('https://www.googleapis.com/books/v1/volumes?q=harry+potter');
     const json = await fetchResponse.json();
-    setData(json);
+    setData(json.items);
     setLoading(false);
-    console.log(json);
+    console.log(json.items[0].id)
   }
 
   useEffect(() => {
@@ -25,7 +25,7 @@ export default App = () => {
           data={data}
           keyExtractor={({ id }, index) => id}
           renderItem={({ item }) => (
-            <Text>{item.title}, {item.releaseYear}</Text>
+            <Text>{item.volumeInfo.title}, {item.volumeInfo.publisher}</Text>
           )}
         />
       )}
