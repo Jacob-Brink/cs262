@@ -12,6 +12,7 @@ DROP TABLE IF EXISTS PlayerGameProperty;
 DROP TABLE IF EXISTS PlayerGame;
 DROP TABLE IF EXISTS Game;
 DROP TABLE IF EXISTS Player;
+DROP TYPE IF EXISTS Structure;
 
 -- Create the schema.
 CREATE TABLE Game (
