@@ -1,0 +1,1 @@
+We used Prettier Formatter and used a script from this guy on stack overflow (https://stackoverflow.com/questions/43666270/how-do-i-format-all-files-in-a-visual-studio-code-project) which automatically applied the formatter for each file. We accepted all changes.
